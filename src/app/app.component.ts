@@ -10,7 +10,8 @@ export class AppComponent {
 
   title = 'security-node';
   // readonly API_URL = 'http://localhost:3000'
-  API_URL = 'https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8'
+  API_URL = 'https://dev-node-security.vercel.app/'
+  // API_URL = 'https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8'
   @ViewChild('input') inputData: ElementRef
 
   constructor(private http: HttpClient){}
